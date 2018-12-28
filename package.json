@@ -1,0 +1,31 @@
+{
+  "name": "anka",
+  "version": "1.0.0",
+  "description": "site about me ",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "acron": "^1.0.5",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-install": "^1.1.0",
+    "gulp-less": "^3.4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-stylus": "^2.7.0",
+    "jade": "^1.11.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "gulp-gh-pages": "^0.5.4",
+    "minimatch": ">=3.0.2",
+    "cryptiles": ">=4.1.2",
+    "hoek": ">=4.2.1"
+  },
+  "scripts": {
+    "dev": "gulp watch",
+    "start": "node server.js",
+    "deploy": "gulp deploy"
+  },
+  "author": "akozyreva",
+  "license": "ISC"
+}

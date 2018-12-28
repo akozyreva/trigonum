@@ -1,0 +1,25 @@
+.contacts#contacts
+	.container
+		img.section-img(src='./images/section-icon.svg')
+		p.section-title contact us
+		p.section-subtitle Fusce suscipit sit amet nisi in euismod. Aenean dignissim finibus eros, sit amet venenatis ante vestibulum id. Vivamus arcu elit, luctus eu porta a, pellentesque a mi. Integer finibus auctor faucibus.
+		.wrapper-contacts
+			.wrapper-contact-text
+				p.contact-title TRIGONUM Ltd.
+				p.contact-address Fusce suscipit sit amet <br>26 Aenean dignissim str. <br> LONDON, UK
+				.contact-phone
+					p.phone t. 	+255 55 55 666
+					p.phone m. 	+255 55 55 777
+				p.email e-mail: <span>Info@trgonum.co.uk</span>
+
+			.wrapper-contact-form
+				p.section-title say hello
+				form.contact
+					.contact-input
+						input.contact-input(type="text" id="name") 
+						p Your name
+					.contact-input
+						input.contact-input(type="text" id="email") 
+						p E-mail
+					textarea.contacts-textarea(rows="5" id="description")
+					input.contacts-confirm(type="submit" value="send")
